@@ -55,11 +55,15 @@
         &-retirar{width: 50%;border: solid thin $borde;border-radius: 6px;padding: 30px 24px;display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;}
+            align-items: center;
+            cursor: pointer;
+        }
         &-recibir{width: 50%;border: solid thin $borde;border-radius: 6px; padding: 30px 24px;display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;}
+            align-items: center;
+            cursor: pointer;
+        }
 }
 
 .box-saludo-box-item-box{
@@ -132,6 +136,7 @@
        border: solid thin $borde;
        border-radius: 6px;
        padding: 24px;
+       cursor: pointer;
        &-box{
         display: flex;
         font-family: $fuente;
@@ -164,6 +169,14 @@
         }
       }
     }
+}
+
+.presupuesto-box:hover{
+    background: #f7f7f7;
+}
+.box-nuevoahorro:hover .box-nuevoahorro-box-circulo 
+{
+    background: #5a52f3;
 }
 
 .box-progreso{
